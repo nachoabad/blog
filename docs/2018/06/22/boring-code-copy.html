@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Boring Code - Nacho's Blog</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+
+    <!-- https://github.com/tailwindtoolbox/Minimalist-Blog/blob/master/index.html -->
+  </head>
+  <body class="bg-slate-900 text-slate-400">
+    <div class="p-6 sm:p-10 md:p-16 flex flex-wrap">
+      <div class="w-full md:w-2/6 md:pr-32 order-3 md:order-1">
+  <div class="max-w-md md:float-right md:text-right leading-loose tracking-tight md:sticky md:top-0 ">
+    <p class="font-bold my-4 md:my-12">Posts</p>
+    <ul class="flex flex-wrap justify-between flex-col">
+      
+        <li>
+          <a href="/2022/01/31/why-onboardings-fail.html" class="nav">Why onboardings fail?</a>
+        </li>
+      
+        <li>
+          <a href="/2021/12/02/yours-mine-our-goals.html" class="nav">Yours, Mine, Our Goals</a>
+        </li>
+      
+        <li>
+          <a href="/2019/09/11/rock-stars.html" class="nav">Rock Stars</a>
+        </li>
+      
+        <li>
+          <a href="/2019/08/10/impostor-syndrome-antidote.html" class="nav">Impostor Syndrome Antidote</a>
+        </li>
+      
+        <li>
+          <a href="/2019/07/09/unreviewed-prs.html" class="nav">Unreviewed PRs</a>
+        </li>
+      
+        <li>
+          <a href="/2018/06/22/boring-code-copy.html" class="nav">Boring Code</a>
+        </li>
+      
+        <li>
+          <a href="/2018/04/17/technical-debt.html" class="nav">Technical Debt, dare not speak its name</a>
+        </li>
+      
+    </ul>
+    <!-- <a href="#" class="normal font-bold hover:font-bold">more...</a> -->
+  </div>
+</div>
+
+      <div class="w-full md:w-4/6 order-1 md:order-2 text-slate-300">
+        <div class="max-w-md leading-loose tracking-tight">
+          <h1 id="boring-code">Boring Code</h1>
+
+<p>Despite its bad reputation, boredom appears to me as a good state to be in: it’s free of stress and worries, and it can be a fertile ground to explore and innovate.</p>
+
+<p>Coding, however, is supposed to be excting and fun, not boring. It is certainly fun when you are starting a side project or trying out a new technology. You keep adding lines of code to what once were blank files and a system that follows your instructions is born. Magical!</p>
+
+<p>If you keep advancing, adding more and more lines, a threshold is inevitably crossed. Fun suddenly starts being less predominant and other emotions mix in: doubt, confusion, impostor syndrome. In a professional environment, fun gets worn out even quicker when you are primarily measured by how good your code is and how fast you can deliver it.</p>
+
+<p>Over my years as a software engineer I have distanced myself from the fun lines of code experience and I’ve begun to appreciate what I call Boring Code. Not the clever or particularly elegant one. But the one that is so straight-forward that, after reading it, you yawn. What you see throughout the code base is so repetitive, familiar, easy, that it’s boring.</p>
+
+<p>Positively boring? Aren’t we supposed to be passionate about our craft?</p>
+
+<p>It seems paradoxical. But the fun is still there, it just shifts. The scars by being held responsible for a large, legacy, multi-stack system, with rotating developers, become an antidote against the urge to have fun writing something particularly clever and elegant for people to review.</p>
+
+<p>The fun is no longer, as an evident example, quickly hacking a JS snippet in the internal admin app to implement that cool drag &amp; drop feature the marketing team keeps asking for. It shifts to figuring out if and how the current server side rendering implementation can fulfill the marketing team needs.</p>
+
+<p>Boring code seems simple. Writing it consistently throughout the code base is a very hard task, similar to how highly skilled professionals make hard things look dead-simple to perform. It involves first of all, deciding whether writing code it’s at all necessary. It requires a vast understanding of the domain, a previous and continuous negotiation on styles, and a sharp creativity for naming and scoping things. None of that is explicitly visible on a Pull Request. One can get daunted by the urge to present (read, impress) elegant language idiomatics or introduce a clever pattern.</p>
+
+<p>Boring Code is achieved by exercising of all those pragmatic, clean, intention-revealing, SOLID practices. The crystallization happens when you see the same things over and over: the exact same way you call external APIs. The exact same way to unit tests. The exact same way to catch and notify exceptions. “Oh that again… How boring”.
+You don’t agree with something? Find or create the time and space for discussing it. Come prepared with examples and data to counter face other people strong arguments. Be open to disagree and commit. 
+A big role is played by the “Convention over Configuration” philosophy.
+Boring is the opposite of: going add a feature. It’s pretty similar to what A, B and C does. But each of those have different approaches. Which one should I take? Should I go with my own D?
+The fun is out there, but it gradually moves from “what’s a clever way to write that concrete function or module”, to aiming to sustain a controlled, maintainable and expandable system.
+The whole thing working seems majestic from afar, but when you approach it with a magnifying glass, you only discover a collection of boring small pieces, orchestrated.
+Next time I write a piece of code, how can I make the reader understand so clear and fast what it does, makes it so familiar. that it seems boring
+Repetitive == consistent</p>
+
+        </div>
+      </div>
+
+      <div class="w-full md:w-2/6 md:pr-32 pt-12 md:pt-0 md:sticky md:bottom-0 order-4 md:order-3">
+  <div class="max-w-md md:float-right md:text-right leading-loose tracking-tight md:mb-16">
+    <p class="font-bold my-4 md:my-12">Contact Me</p>
+
+    <ul class="flex flex-wrap justify-between flex-row md:flex-col">
+      <li><a href="https://www.instagram.com/nachoabad/" class="nav mx-2 md:mx-0">Instagram</a></li>
+      <li><a href="https://www.linkedin.com/in/luisignacioabad/" class="nav mx-2 md:mx-0">LinkedIn</a></li>
+    </ul>
+  </div>
+</div>
+      <div class="w-full md:w-4/6 order-2 md:order-4">
+  <div class="max-w-md leading-loose tracking-tight">
+    <p class="font-bold my-4 md:my-12">About Me</p>
+
+    <p class="mb-8">
+      I enjoy spending my workdays thinking and discussing how teams can write better software and how software helps people. All that while sipping tea and chewing chocolate.  
+    </p>
+  </div>
+</div>
+  </div>    
+</body>
+</html>
