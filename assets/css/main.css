@@ -1,0 +1,15 @@
+---
+---
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply font-bold my-12 text-lg;
+  }
+  p {
+    @apply mb-8
+  }
+}

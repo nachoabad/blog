@@ -1,0 +1,13 @@
+<div class="w-full md:w-2/6 md:pr-32 order-3 md:order-1">
+  <div class="max-w-md md:float-right md:text-right leading-loose tracking-tight md:sticky md:top-0 ">
+    <p class="font-bold my-4 md:my-12">Posts</p>
+    <ul class="flex flex-wrap justify-between flex-col">
+      {% for post in site.posts %}
+        <li>
+          <a href="{{ post.url }}" class="nav">{{ post.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+    <!-- <a href="#" class="normal font-bold hover:font-bold">more...</a> -->
+  </div>
+</div>
